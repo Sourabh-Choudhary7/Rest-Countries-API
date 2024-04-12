@@ -53,7 +53,10 @@ img {
   font-size: 15px;
   cursor: pointer;
 }
-
+.loader {
+  color: white;
+  font-size: 35px;
+}
 
 /* Search and filter design */
 .filter {
@@ -94,7 +97,7 @@ img {
 }
 
 
-.filter .select-filter .select {
+.filter .filter-by-region .select {
   background-color: #2b3743;
   color: #fff;
   font-family: inherit;
@@ -155,7 +158,6 @@ img {
   background-color:#2b3743;
   padding: 10px;
   outline: none;
-  border-radius: 10px;
   
 }
 .country-details .btn {
@@ -163,9 +165,6 @@ img {
   border: none;
   border-radius: 10px;
 
-}
-.country-details .btn .mode-icon:hover {
-  background-color: #0e2233d7;
 }
 .country-details .mode-icon i {
   font-size: 15px;

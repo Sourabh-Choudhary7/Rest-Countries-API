@@ -35,6 +35,9 @@ body {
     padding: 10px 0px;
 }
 
+.country-details .btn .mode-icon {
+  border-radius: 0px;
+}
 @media (min-width: 640px) {
 }
 @media (min-width: 768px) {
