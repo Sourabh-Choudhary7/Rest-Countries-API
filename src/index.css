@@ -56,6 +56,10 @@ img {
 .loader {
   color: white;
   font-size: 35px;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Search and filter design */
